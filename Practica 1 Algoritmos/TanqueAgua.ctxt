@@ -1,5 +1,5 @@
 #BlueJ class context
 comment0.target=TanqueAgua
 comment1.params=
-comment1.target=int\ TanqueAgua()
+comment1.target=double\ TanqueAgua()
 numComments=2
