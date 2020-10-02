@@ -1,8 +1,11 @@
 public class TanqueAgua{
-   public double TanqueAgua(){
-       int lleno=10;//datos en hrs
-       int vacio=15;
-       double llenVac=((1.0/lleno)-(1.0/vacio));
-       return llenVac;
+   public int TanqueAgua(){
+       int lleno=10, vacio=15, v=1;
+       int op1=v*vacio;
+       int op2=v*lleno;
+       int multidemo=30;
+       int suma=op1+op2;
+       int resu=multidemo/1;
+       return resu;
     }
 }
