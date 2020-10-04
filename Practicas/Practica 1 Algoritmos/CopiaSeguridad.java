@@ -1,10 +1,11 @@
 public class CopiaSeguridad{
-    public int copiaSeg(){
+    public double copiaSeg(){
         int cd=700; //Capacidad de almacen en Megabytes
         int datos=5; 
         int gb=1024;
-        int totalDatos=datos*gb;
-        int copiar=totalDatos/cd;
+        double totalDatos=datos*gb;
+        double copiar=totalDatos/(cd+0.0);
         return copiar;
-    }
+        
+   }
 }
