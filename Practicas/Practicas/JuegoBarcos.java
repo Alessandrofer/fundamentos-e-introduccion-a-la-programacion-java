@@ -1,15 +1,22 @@
 public class JuegoBarcos{
-    public static void main(String[] args){
-        int matriz[][];
-        int filas=10;
-        int columnas=10;
-        matriz = new int [filas][columnas];
-        
-        for(int i=0;i<filas;i++){
-            for(int j=0;j<columnas;j++){
-                System.out.print(matriz[i][j]);
-            }
-            System.out.println("");
-        }
+    private int x,y, intentos;
+    public JuegoBarcos(){
+        intentos=3;
+        x = (int)(Math.random()*11);
+        y = (int)(Math.random()*11);
     }
+
+    public String Jugar(int posX, int posY){
+        int distanciaX=Math.abs(x-posX);
+        int distanciaY=Math.abs(y-posY);
+        String msj =distanciaX <=2?"X esta cerca": "X esta lejos";
+        String vicX =distanciaX==x?"ganaste":"";
+        String vicY =distanciaY==y?"ganaste":"";
+        return distanciaY<=2? msj+vicX+vicY+" Y esta cerca" : msj+vicX+vicY+ "Y esta lejos";
+    }
+    
+    public static int abs(int x){
+        return x<0?x*-1:x;
+    }
+
 }

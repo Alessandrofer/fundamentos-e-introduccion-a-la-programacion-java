@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=JuegoBarcos
+comment1.params=
+comment1.target=JuegoBarcos()
+comment2.params=posX\ posY
+comment2.target=java.lang.String\ Jugar(int,\ int)
+comment3.params=x
+comment3.target=int\ abs(int)
+numComments=4

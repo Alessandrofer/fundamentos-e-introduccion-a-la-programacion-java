@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=LibroMemorias
+comment1.params=tarea
+comment1.target=LibroMemorias(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getTarea()
+comment3.params=actual
+comment3.target=void\ setTarea(java.lang.String)
+numComments=4
