@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Familia
+comment1.params=n1\ e1\ n2\ e2\ n3\ e3
+comment1.target=Familia(java.lang.String,\ int,\ java.lang.String,\ int,\ java.lang.String,\ int)
+comment2.params=
+comment2.target=java.lang.String\ hijoMayor()
+comment3.params=
+comment3.target=java.lang.String\ hijoMenor()
+comment4.params=
+comment4.target=java.lang.String\ hijoDelMedio()
+numComments=5
