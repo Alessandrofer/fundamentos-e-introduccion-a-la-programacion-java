@@ -10,8 +10,8 @@ public class Semaforo{
         }
         return res;
     }
-    public int cambiar(){
-        contador=(contador+1)%3;
+    public int cambiar(int n){
+        contador=(contador+n)%3;
         return contador;
     }
 }

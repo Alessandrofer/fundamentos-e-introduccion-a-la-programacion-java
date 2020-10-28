@@ -2,6 +2,6 @@
 comment0.target=Semaforo
 comment1.params=
 comment1.target=java.lang.String\ color()
-comment2.params=
-comment2.target=int\ cambiar()
+comment2.params=n
+comment2.target=int\ cambiar(int)
 numComments=3
