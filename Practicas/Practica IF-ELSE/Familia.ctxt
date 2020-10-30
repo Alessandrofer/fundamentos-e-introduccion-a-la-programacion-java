@@ -1,13 +1,11 @@
 #BlueJ class context
 comment0.target=Familia
-comment1.params=n1\ e1\ n2\ e2\ n3\ e3
-comment1.target=Familia(java.lang.String,\ int,\ java.lang.String,\ int,\ java.lang.String,\ int)
-comment2.params=h1\ h2\ h3
-comment2.target=Familia(Hijo,\ Hijo,\ Hijo)
+comment1.params=h1\ h2\ h3
+comment1.target=Familia(Hijo,\ Hijo,\ Hijo)
+comment2.params=
+comment2.target=java.lang.String\ hijoMayor()
 comment3.params=
-comment3.target=java.lang.String\ hijoMayor()
+comment3.target=java.lang.String\ hijoMenor()
 comment4.params=
-comment4.target=java.lang.String\ hijoMenor()
-comment5.params=
-comment5.target=java.lang.String\ hijoDelMedio()
-numComments=6
+comment4.target=java.lang.String\ hijoDelMedio()
+numComments=5

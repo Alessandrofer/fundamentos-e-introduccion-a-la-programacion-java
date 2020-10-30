@@ -2,4 +2,8 @@
 comment0.target=Hijo
 comment1.params=Nom\ edad
 comment1.target=Hijo(java.lang.String,\ int)
-numComments=2
+comment2.params=
+comment2.target=int\ getEdad()
+comment3.params=
+comment3.target=java.lang.String\ getNom()
+numComments=4
