@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.target=SenderoZenit
-comment1.params=vision\ durabilidad
-comment1.target=SenderoZenit(int,\ int)
-comment2.params=s
-comment2.target=void\ fusion(SenderoZenit)
-comment3.params=
-comment3.target=int\ getVision()
-numComments=4

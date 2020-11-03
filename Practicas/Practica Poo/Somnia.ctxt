@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Somnia
+comment1.params=dur\ al
+comment1.target=Somnia(int,\ int)
+comment2.params=otroSomnia
+comment2.target=void\ fusion(Somnia)
+comment3.params=otroSomnia
+comment3.target=Somnia\ fusion2(Somnia)
+comment4.params=
+comment4.target=int\ getAlcance()
+comment5.params=
+comment5.target=int\ getDurabilidad()
+numComments=6
