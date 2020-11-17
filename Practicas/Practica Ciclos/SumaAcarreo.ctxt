@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=SumaAcarreo
+comment1.params=n1\ n2
+comment1.target=SumaAcarreo(int,\ int)
+comment2.params=
+comment2.target=int\ Acarreos()
+numComments=3

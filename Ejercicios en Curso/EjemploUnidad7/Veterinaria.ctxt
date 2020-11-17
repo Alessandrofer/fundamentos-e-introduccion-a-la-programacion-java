@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Veterinaria
+comment1.params=tam
+comment1.target=Veterinaria(int)
+comment10.params=ini
+comment10.target=void\ reordenar(int)
+comment2.params=busca
+comment2.target=java.lang.String\ busquedaBinaria(double)
+comment3.params=
+comment3.target=void\ ordenarGatosPeso()
+comment4.params=
+comment4.target=void\ burbuja()
+comment5.params=valor
+comment5.target=boolean\ agregarElemento(int)
+comment6.params=nuevo
+comment6.target=boolean\ agregarGatos(Gato)
+comment7.params=valor
+comment7.target=boolean\ agregarGanancias(int)
+comment8.params=busca
+comment8.target=boolean\ eliminarGato(Gato)
+comment9.params=busca
+comment9.target=boolean\ eliminarGanancia(int)
+numComments=11

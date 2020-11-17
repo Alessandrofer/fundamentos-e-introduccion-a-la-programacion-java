@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Veterinaria2
+comment1.params=
+comment1.target=Veterinaria2()
+comment2.params=valor
+comment2.target=boolean\ agregarElemento(int)
+comment3.params=valor
+comment3.target=boolean\ agregarElemento2(int)
+comment4.params=busca
+comment4.target=boolean\ eliminarElemento(int)
+comment5.params=ini
+comment5.target=void\ reordenar(int)
+numComments=6

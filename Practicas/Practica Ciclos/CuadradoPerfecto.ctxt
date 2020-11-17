@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=CuadradoPerfecto
+comment1.params=num
+comment1.target=int\ Digitos(int)
+comment2.params=num
+comment2.target=void\ Calcular(int)
+numComments=3
