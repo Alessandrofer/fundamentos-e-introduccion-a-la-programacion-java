@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=AnomaliaEquilibrio
+comment1.params=
+comment1.target=AnomaliaEquilibrio()
+comment2.params=x
+comment2.target=AnomaliaEquilibrio(int[])
+comment3.params=valor
+comment3.target=boolean\ agregarNumeros(int)
+comment4.params=inicio\ fin
+comment4.target=int\ suma(int,\ int)
+comment5.params=
+comment5.target=java.lang.String\ buscarNumDese()
+numComments=6
