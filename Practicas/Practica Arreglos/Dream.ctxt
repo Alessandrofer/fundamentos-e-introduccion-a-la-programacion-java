@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Dream
+comment1.params=nombre\ descripcion
+comment1.target=Dream(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getNombre()
+comment3.params=
+comment3.target=java.lang.String\ getDescripcion()
+comment4.params=otro
+comment4.target=boolean\ equals(Dream)
+numComments=5

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=FechaRec
+comment1.params=dia\ mes\ year
+comment1.target=FechaRec(int,\ int,\ int)
+comment2.params=
+comment2.target=boolean\ controlarDate()
+comment3.params=
+comment3.target=int\ getDia()
+comment4.params=
+comment4.target=int\ getMes()
+comment5.params=
+comment5.target=int\ getYear()
+numComments=6

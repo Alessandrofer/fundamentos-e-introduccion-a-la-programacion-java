@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=TabernaDream
+comment1.params=tam
+comment1.target=TabernaDream(int)
+comment2.params=d
+comment2.target=boolean\ addDream(Dream)
+comment3.params=
+comment3.target=void\ showDreams()
+comment4.params=name
+comment4.target=Dream\ searchDream(java.lang.String)
+comment5.params=num
+comment5.target=boolean\ deteleDream(int)
+numComments=6

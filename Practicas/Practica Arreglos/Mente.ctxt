@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Mente
+comment1.params=tam
+comment1.target=Mente(int)
+comment2.params=r
+comment2.target=boolean\ agregarRec(Recuerdo)
+comment3.params=
+comment3.target=Recuerdo\ getRecuerdoLuz()
+comment4.params=
+comment4.target=boolean\ statusLleno()
+comment5.params=
+comment5.target=void\ ordenDia()
+comment6.params=
+comment6.target=void\ ordenMes()
+comment7.params=
+comment7.target=void\ ordenYear()
+numComments=8
