@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=LlantoEstrellas
+comment1.params=estrellas
+comment1.target=LlantoEstrellas(int[])
+comment2.params=
+comment2.target=void\ contarParImpar()
+comment3.params=
+comment3.target=void\ ordenar()
+comment4.params=a\ b
+comment4.target=int[]\ fusion(int[],\ int[])
+numComments=5
