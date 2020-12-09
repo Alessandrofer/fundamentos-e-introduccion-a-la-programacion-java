@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=PresMeredith
+comment1.params=cartas
+comment1.target=PresMeredith(Carta[][])
+comment2.params=
+comment2.target=void\ visualizar()
+comment2.text=public\ String\ Jugar(int\ posX,\ int\ posY){\r\n\ \ \ \ \ \ \ \ int\ distanciaX\=Math.abs(x-posX);\r\n\ \ \ \ \ \ \ \ int\ distanciaY\=Math.abs(y-posY);\r\n\ \ \ \ \ \ \ \ return\ \r\n}
+comment3.params=x
+comment3.target=int\ abs(int)
+numComments=4
