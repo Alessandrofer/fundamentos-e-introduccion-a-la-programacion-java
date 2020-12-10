@@ -2,10 +2,8 @@
 comment0.target=TiburonesAsesinos
 comment1.params=
 comment1.target=TiburonesAsesinos()
-comment10.params=
-comment10.target=void\ mostrar()
 comment2.params=
-comment2.target=char\ simbGame()
+comment2.target=void\ addTib()
 comment3.params=
 comment3.target=void\ visualizar()
 comment4.params=x\ y
@@ -20,4 +18,4 @@ comment8.params=
 comment8.target=boolean\ perdioJuego()
 comment9.params=
 comment9.target=int\ getTesoro()
-numComments=11
+numComments=10

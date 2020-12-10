@@ -1,20 +1,27 @@
 public class TiburonesAsesinos implements JuegoTiburones{
-    private  int fila,col;
+    private int fila,col,tiburon, tesoroCont, tesEncon;
     private char [][] tibus;
     public TiburonesAsesinos(){
         fila=5; col=5;
         tibus=new char [fila][col];
         for(int i=0;i<tibus.length;i++){
             for(int j=0;j<tibus.length;j++){
-                tibus[i][j]= simbGame();
+                tibus[i][j]= 'T';
             }
         }
+        addTib();
     }
-    public char simbGame(){
-        char [] simTab= {'T','B'};
-        char inPos = (char)(Math.random()*2);
-        char tableroTib= simTab[inPos];
-        return tableroTib;
+    public void addTib(){
+        int tiburones=3;
+        while(tiburones>0){
+            int x = (int)(Math.random()*4);
+            int y = (int)(Math.random()*4);
+            if(tibus[x][y]=='T'){
+                tibus[x][y]='B';
+                tiburones--;
+            }
+        }
+ 
     }
     public void visualizar(){
         for(int i=0;i<tibus.length;i++){
@@ -25,11 +32,17 @@ public class TiburonesAsesinos implements JuegoTiburones{
             System.out.println();
         }
     }
-    public void acumTesoro(){
-        
-    }
+  
     public char develarCasilla(int x, int y) {
-        return x%2==0? 'B':'T';
+        if(tibus[x][y]=='T'){
+            tesoroCont++;
+            tesEncon++;
+        }else{
+            tiburon++;
+            tesoroCont=0;
+        }
+        perdioJuego();
+        return tibus[x][y];
     }
 
     public int getFila() {
@@ -41,18 +54,27 @@ public class TiburonesAsesinos implements JuegoTiburones{
     }
 
     public boolean ganoJuego() {
-        
-        return false;
+        boolean res= false;
+        if(tesEncon==(fila*col)-3){
+            res=true;
+        }
+        return res;
     }
 
     public boolean perdioJuego() {
-        return false;
+        boolean res = false;
+        if(tiburon==3){
+            System.out.println("GAME OVER");
+            res= true;
+        }else{
+            System.out.println("Sigue Buscando - con cuidado");
+            res=false;
+        }
+        return res;
     }
     public int getTesoro(){
-        return 0;
-    }
-    public void mostrar(){
-
+        int tesoro=tesoroCont*50;
+        return tesoro;
     }
 
 }

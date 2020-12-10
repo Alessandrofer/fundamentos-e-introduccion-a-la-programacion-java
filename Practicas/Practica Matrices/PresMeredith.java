@@ -3,14 +3,17 @@ public class PresMeredith{
     private int acierto,contra,x,y;
     public PresMeredith(Carta[][] cartas){
         this.cartas=cartas;
-        x = (int)(Math.random()*11);
-        y = (int)(Math.random()*11);
     }
     
-    /*public String Jugar(int posX, int posY){
-        int distanciaX=Math.abs(x-posX);
-        int distanciaY=Math.abs(y-posY);
-        return 
+    /*public char develarCasilla(int x, int y) {
+        if(tibus[x][y]=='T'){
+            tesoroCont++;
+        }else{
+            tiburon++;
+            tesoroCont=0;
+        }
+        perdioJuego();
+        return tibus[x][y]=='B'? 'B':'T';
     }*/
     public void visualizar(){
         for(int i=0;i<cartas.length;i++){
@@ -21,7 +24,5 @@ public class PresMeredith{
             System.out.println();
         }
     }
-    public static int abs(int x){
-        return x<0?x*-1:x;
-    }
+    
 }
