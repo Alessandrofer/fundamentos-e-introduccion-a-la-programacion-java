@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Ventana
+comment1.params=
+comment1.target=Ventana()
+comment2.params=x\ y
+comment2.target=char\ getCasilla(int,\ int)
+comment3.params=
+comment3.target=boolean\ ganoJuego()
+comment4.params=
+comment4.target=boolean\ perdioJuego()
+comment5.params=
+comment5.target=int\ getFila()
+comment6.params=
+comment6.target=int\ getCol()
+numComments=7
