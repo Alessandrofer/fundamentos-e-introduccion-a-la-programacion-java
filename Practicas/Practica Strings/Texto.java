@@ -1,18 +1,25 @@
 public class Texto{
     public String [] parts;
     public int contPala;
+    public char prueB;
     public Texto(){
         contPala=0;  
     }
 
-    public static String[] separaCaracteres(String cadena, String separator){        
-        String[] parts = null;
-        if(separator.equals(" ")&& separator.equals(",")&& separator.equals(".")){
-            parts = cadena.split("//"+separator);       
-        }else{
-            parts = cadena.split(separator);
-        }    
-        return parts;
+    private static String palabraSep(String frase){
+        frase=frase+" ";
+        String palabra="";
+        for(int i=0;i<frase.length();i++){
+            char uniPal=frase.charAt(i);
+            if(uniPal!='.' && uniPal!=','){
+                palabra=palabra+uniPal;
+            }
+        }
+        return palabra;
     }
+    public static String [] separaText(String mensaje){
+        String auxMens=palabraSep(mensaje);
+        return auxMens.split(" ");
+    } 
 }
-// Sean todos, bienvenidos, a este curso, especial,
+

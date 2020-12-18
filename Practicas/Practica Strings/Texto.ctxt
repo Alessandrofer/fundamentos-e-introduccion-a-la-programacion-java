@@ -2,6 +2,8 @@
 comment0.target=Texto
 comment1.params=
 comment1.target=Texto()
-comment2.params=cadena\ separator
-comment2.target=java.lang.String[]\ separaCaracteres(java.lang.String,\ java.lang.String)
-numComments=3
+comment2.params=frase
+comment2.target=java.lang.String\ palabraSep(java.lang.String)
+comment3.params=mensaje
+comment3.target=java.lang.String[]\ separaText(java.lang.String)
+numComments=4
