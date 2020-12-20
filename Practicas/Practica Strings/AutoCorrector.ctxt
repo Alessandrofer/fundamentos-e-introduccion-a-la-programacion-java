@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=AutoCorrector
+comment1.params=nombreCompleto
+comment1.target=java.lang.String\ corregirMayus(java.lang.String)
+comment2.params=palabra
+comment2.target=java.lang.String\ corregirPal(java.lang.String)
+comment3.params=texto
+comment3.target=java.lang.String\ practica(java.lang.String)
+numComments=4

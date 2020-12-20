@@ -1,9 +1,7 @@
 #BlueJ class context
 comment0.target=Texto
-comment1.params=
-comment1.target=Texto()
-comment2.params=frase
-comment2.target=java.lang.String\ palabraSep(java.lang.String)
-comment3.params=mensaje
-comment3.target=java.lang.String[]\ separaText(java.lang.String)
-numComments=4
+comment1.params=frase
+comment1.target=java.lang.String\ palabraSep(java.lang.String)
+comment2.params=mensaje
+comment2.target=java.lang.String[]\ separaText(java.lang.String)
+numComments=3

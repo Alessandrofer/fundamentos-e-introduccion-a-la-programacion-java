@@ -2,10 +2,6 @@ public class Texto{
     public String [] parts;
     public int contPala;
     public char prueB;
-    public Texto(){
-        contPala=0;  
-    }
-
     private static String palabraSep(String frase){
         frase=frase+" ";
         String palabra="";
@@ -20,6 +16,6 @@ public class Texto{
     public static String [] separaText(String mensaje){
         String auxMens=palabraSep(mensaje);
         return auxMens.split(" ");
-    } 
+    }
 }
 
