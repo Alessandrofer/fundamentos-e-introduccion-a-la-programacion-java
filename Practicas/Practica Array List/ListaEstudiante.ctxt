@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ListaEstudiante
+comment1.params=
+comment1.target=ListaEstudiante()
+comment2.params=e
+comment2.target=void\ addEstudiante(Estudiante)
+comment3.params=
+comment3.target=void\ estAprobados()
+comment4.params=
+comment4.target=void\ estReprobados()
+comment5.params=
+comment5.target=void\ estEstancia()
+numComments=6

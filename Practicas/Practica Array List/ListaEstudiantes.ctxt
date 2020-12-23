@@ -1,7 +1,0 @@
-#BlueJ class context
-comment0.target=ListaEstudiantes
-comment1.params=cap
-comment1.target=ListaEstudiantes(int)
-comment2.params=a
-comment2.target=Estudiante\ addEst(Estudiante)
-numComments=3
