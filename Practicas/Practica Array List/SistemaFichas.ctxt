@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=SistemaFichas
+comment1.params=
+comment1.target=SistemaFichas()
+comment2.params=
+comment2.target=java.lang.String\ generarFicha()
+comment3.params=seg
+comment3.target=java.lang.String\ atenderFicha(int)
+comment4.params=
+comment4.target=void\ mostrarFichasAtendidas()
+numComments=5
