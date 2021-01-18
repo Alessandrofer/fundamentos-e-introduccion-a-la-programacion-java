@@ -114,7 +114,7 @@ public class Veterinaria{
                 ganancias [i]=0;
             }
         }
-        return res;
+        return res;   
     }
 
     private void reordenar(int ini){

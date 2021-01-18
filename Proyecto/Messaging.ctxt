@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Messaging
+comment1.params=
+comment1.target=Messaging()
+comment2.params=mes
+comment2.target=boolean\ sendMenssage(Message)
+comment3.params=mess\ usy
+comment3.target=void\ sendMessage(java.lang.String,\ User)
+comment4.params=
+comment4.target=void\ outboxMess()
+comment5.params=numberFriend
+comment5.target=void\ watchMessRecipientFriend(int)
+numComments=6

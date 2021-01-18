@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=ContactBook
+comment1.params=
+comment1.target=ContactBook()
+comment2.params=us
+comment2.target=boolean\ addContact(User)
+comment3.params=num
+comment3.target=boolean\ deleteContact(int)
+comment4.params=name
+comment4.target=User\ searchContactFName(java.lang.String)
+comment5.params=numberS
+comment5.target=User\ searchContactFNumb(int)
+comment6.params=
+comment6.target=void\ showAllContacts()
+numComments=7

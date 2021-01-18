@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=EmailSystem
+comment1.params=messaging\ contactBook
+comment1.target=EmailSystem(Messaging,\ ContactBook)
+comment10.params=
+comment10.target=void\ showAllContacts()
+comment2.params=us
+comment2.target=boolean\ addContactSys(UserSystem)
+comment3.params=
+comment3.target=void\ outboxMess()
+comment4.params=numberFriend
+comment4.target=void\ watchMessRecipientFriend(int)
+comment5.params=mess\ usy
+comment5.target=void\ sendMessage(java.lang.String,\ User)
+comment6.params=us
+comment6.target=boolean\ addContact(User)
+comment7.params=num
+comment7.target=boolean\ deleteContact(int)
+comment8.params=name
+comment8.target=User\ searchContactFName(java.lang.String)
+comment9.params=numberS
+comment9.target=User\ searchContactFNumb(int)
+numComments=11
