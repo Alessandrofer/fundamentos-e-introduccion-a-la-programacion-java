@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Jugador
+comment1.params=nom\ ptsS\ ptsD\ vel\ x\ y
+comment1.target=Jugador(java.lang.String,\ int,\ int,\ int,\ int,\ int)
+comment2.params=
+comment2.target=void\ caminar()
+comment3.params=
+comment3.target=char\ getFicha()
+comment4.params=
+comment4.target=int\ getPosY()
+comment5.params=
+comment5.target=int\ getPosX()
+comment6.params=
+comment6.target=java.lang.String\ getNombre()
+comment7.params=
+comment7.target=int\ getPtsSalud()
+comment8.params=
+comment8.target=int\ getPtsDanio()
+comment9.params=
+comment9.target=int\ getVelMovimiento()
+numComments=10
